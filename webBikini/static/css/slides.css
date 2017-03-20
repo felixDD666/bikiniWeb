@@ -1,0 +1,123 @@
+    /*swiper 1*/
+    .swiper-container1 {
+        width: 100%;
+        padding-bottom: 50px;
+        height: 500px;
+    }
+    .slidesPrincipales {
+        background-position: center;
+        background-size: cover;
+        width: 600px!important;
+        height: 500px!important;
+    }
+    #swiper1-1{
+        background:url(../img/swiper1/swiper1-1.JPG)no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #swiper1-2{
+        background:url(../img/swiper1/swiper1-2.JPG)no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #swiper1-3{
+        background:url(../img/swiper1/swiper1-3.JPG)no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #swiper1-4{
+        background:url(../img/swiper1/swiper1-4.JPG)no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #swiper1-5{
+        background:url(../img/swiper1/swiper1-5.JPG)no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /*swiper 2*/
+    #swiper2{
+        padding-top: 100px;
+    }
+    .swiper-container2 {
+        width: 100%;
+        height: 400px;
+    }
+    .swiper-slide2 {
+        text-align: center;
+        font-size: 22px;
+        background: #fff;
+        color: white;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    #swiper2-1{
+        background:url(../img/swiper2/swi4.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper2-2{
+        background:url(../img/swiper2/swi5.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper2-3{
+        background:url(../img/swiper2/swi2.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper2-4{
+        background:url(../img/swiper2/swi1.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper2-5{
+        background:url(../img/swiper2/swi3.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper2-6{
+        background:url(../img/swiper2/swi6.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper2-7{
+        background:url(../img/swiper2/swi7.PNG)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
