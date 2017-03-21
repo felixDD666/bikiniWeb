@@ -4,7 +4,10 @@ from django.core.mail import send_mail, BadHeaderError
 
 # Create your views here.
 def principal(request):
-    return render(request,'index.html',{})
+	if request.user_agent.is_mobile:
+		return render(request,'indexMovil.html')
+	else:
+		return render(request,'index.html')
 
 def pruebas(request):
     return render(request,'pruebas.html',{})

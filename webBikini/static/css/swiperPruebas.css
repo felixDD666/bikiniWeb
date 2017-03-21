@@ -1,0 +1,41 @@
+html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*SWIPER 1*/
+    #swiper1{
+        padding: 20px 0;
+    }
+    .swiper-container1 {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+    }
+    .swiper-slide1 {
+        background-position: center;
+        background-size: cover;
+    }
+    /*SWIPER 2*/
+    #swiper2{
+        padding: 20px 0;
+    }
+    .swiper-container2 {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .swiper-slide2 {
+        background-position: center;
+        background-size: cover;
+        width: 300px!important;
+        height: 300px!important;
+    }

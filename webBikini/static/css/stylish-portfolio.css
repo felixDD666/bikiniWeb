@@ -163,6 +163,13 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.headerMovil{
+  background: url(../img/bg1.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 #videoPortada{
     width: 100%;
     height: 100%;
@@ -209,7 +216,7 @@ hr.small {
 }
 
 .portfolio {
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .portfolio-item {
