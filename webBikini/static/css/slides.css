@@ -10,7 +10,8 @@
     .slidesPrincipales {
         background-position: center;
         background-size: cover;
-        
+        width: 600px;
+        height: 500px;
     }
     #swiper1-1{
         background:url(../img/swiper1/swiper1-1.JPG)no-repeat center center;
