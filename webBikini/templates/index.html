@@ -44,42 +44,44 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-blue btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>BLACK SWIMMY</a>
+                <a class="sideBarText" href="#top" onclick=$("#menu-close").click();>BLACK SWIMMY</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>Nosotras</a>
+                <a class="sideBarText" href="#galeria" onclick=$("#menu-close").click();>Galería</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>Blog</a>
+                <a class="sideBarText" href="#portfolio" onclick=$("#menu-close").click();>Our Work</a>
             </li>
             <li>
-                <a href="#contacto" onclick=$("#menu-close").click();>Contacto</a>
+                <a class="sideBarText" href="#swiper2" onclick=$("#menu-close").click();>Lo más vendido</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Tienda</a>
+                <a class="sideBarText" href="#summer" onclick=$("#menu-close").click();>Tienda</a>
             </li>
         </ul>
     </nav>
-    <a id="facebook" href="https://www.facebook.com/" class="btn btn-dark btn-lg toggle"><i class="fa fa-facebook"></i></a>
-    <a id="instagram" href="https://www.instagram.com/" class="btn btn-dark btn-lg toggle"><i class="fa fa-instagram"></i></a>
+    <a id="facebook" href="https://www.facebook.com/" class="btn btn-blue btn-lg toggle"><i class="fa fa-facebook"></i></a>
+    <a id="instagram" href="https://www.instagram.com/" class="btn btn-blue btn-lg toggle"><i class="fa fa-instagram"></i></a>
 
     <!-- Header -->
     <header id="top" class="header">
-        <iframe id="videoPortada" src="https://www.youtube.com/embed/YHWwdf7dXUw?rel=0&autoplay=1&controls=0&showinfo=0&start=6" volume="0" frameborder="0" allowfullscreen></iframe>
+        <iframe id="videoPortada" src="https://www.youtube.com/embed/YHWwdf7dXUw?rel=0&autoplay=0&controls=0&showinfo=0&start=6" volume="0" frameborder="0" allowfullscreen></iframe>
         <div class="text-vertical-center">
-            <h1>BLACK SWIMMY</h1>
-            <h3>Bikinis de diseño</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Descubre más</a>
+            <div id="fondoHeader">
+                <h1>BLACK SWIMMY</h1>
+                <h3>Bikinis de diseño</h3>
+                <br>
+                <a href="#about" class="btn btn-dark btn-lg">boton auxiliar</a>
+            </div>
         </div>
     </header>
     <!-- Swiper principal -->
-    <h2 id="galeria" class="text-center">Galeria</h2>
+    <h2 id="galeria" class="text-center">Galería</h2>
     <hr class="small">
     <div class="swiper-container swiper-container1">
         <div class="swiper-wrapper">
@@ -93,53 +95,39 @@
         <div class="swiper-pagination swiper-pagination1"></div>
     </div>
 
-
-
-
-   
-
-    <!-- Portfolio  -->
-    <section id="portfolio" class="portfolio">
+        <!-- Portfolio MOVIL -->
+    <section id="portfolio" class="portfolio port-movil">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Nuestros Bikinis</h2>
+                    <h2>Our Work</h2>
                     <hr class="small">
-                </div>
-            </div>    
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="pruebas">
-                            <div class="portfolioPics">  
-                                <div class="div-img hid" >
-                                    <img class="img" src="../static/img/swiper2/port1.JPG" title="Foto2" alt="Foto2">
-                                    <h4 id="portfolioText">TOPS</h4>  
-                                </div>
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../static/img/port1.JPG">
+                                    <h3 id="portfolioText">TOPS</h3>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="pruebas">
-                            <div class="portfolioPics">  
-                                <div class="div-img hid" >
-                                    <img class="img" src="../static/img/swiper2/port2.JPG" title="Foto2" alt="Foto2"><h4 id="portfolioText">BOTTOMS</h4>  
-                                </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../static/img/port2.JPG">
+                                    <h3 id="portfolioText">BOTTOMS</h3>
+
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="pruebas">
-                            <div class="portfolioPics">  
-                                <div class="div-img hid" >
-                                    <img class="img" src="../static/img/swiper2/port3.png" title="Foto2" alt="Foto2"><h4 id="portfolioText">SETS</h4>  
-                                </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../static/img/port3.png">
+                                    <h3 id="portfolioText">SETS</h3>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,7 +138,7 @@
 
     <!-- swiper enlaces -->
     <br><br><br>
-    <h2 id="swiper2" class="text-center">MÁS</h2>
+    <h2 id="swiper2" class="text-center">Los más vendidos</h2>
     <hr class="small">
     <div class="swiper-container swiper-container2">
         <div class="swiper-wrapper">
@@ -173,8 +161,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
+                    <h3><i class="fa fa-ship fa-fw fa-1x"></i><a href=""> Elige el tuyo </a><i class="fa fa-ship fa-fw fa-1x"></i></h3>
                     <h2>BLACK SWIMMY</h2>
-                    <p class="lead">VAYA PAGINA MAS GUAPA JODER <a target="_blank" href="http://join.deathtothestockphoto.com/">IMPRESIONANTE</a>.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -182,9 +170,9 @@
         <!-- /.container -->
     </section>
     <!-- Callout -->
-    <aside class="callout">
+    <aside id="summer" class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h2 id="calloutText">It's always summer somewhere</h2>
         </div>
     </aside>
 
@@ -309,3 +297,53 @@
 </body>
 
 </html>
+
+
+    <!-- Portfolio 
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Nuestros Bikinis</h2>
+                    <hr class="small">
+                </div>
+            </div>    
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="portfolio-item">
+                        <a href="pruebas">
+                            <div class="portfolioPics">  
+                                <div class="div-img hid" >
+                                    <img class="img" src="../static/img/port1.JPG" title="Foto2" alt="Foto2">
+                                    <h4 id="portfolioText">TOPS</h4>  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="portfolio-item">
+                        <a href="pruebas">
+                            <div class="portfolioPics">  
+                                <div class="div-img hid" >
+                                    <img class="img" src="../static/img/port2.JPG" title="Foto2" alt="Foto2"><h4 id="portfolioText">BOTTOMS</h4>  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="portfolio-item">
+                        <a href="pruebas">
+                            <div class="portfolioPics">  
+                                <div class="div-img hid" >
+                                    <img class="img" src="../static/img/port3.png" title="Foto2" alt="Foto2"><h4 id="portfolioText">SETS</h4>  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     -->
